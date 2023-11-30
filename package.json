@@ -1,0 +1,18 @@
+{
+  "name": "drchrono",
+  "description": "This is a client library generated using the `openapi-typescript-codegen` tool for the DrChrono API.",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf generated dist && mkdir generated",
+    "prefetch": "npm run clean",
+    "fetch": "curl https://app.drchrono.com/openapi-schema > ./openapi-schema.json && sed -i -e 's/\"bool\"/\"boolean\"/g' ./openapi-schema.json && rm ./openapi-schema.json-e",
+    "pregenerate": "npm run fetch",
+    "postgenerate": "rm ./openapi-schema.json",
+    "generate": "npx -p openapi-typescript-codegen openapi --input ./openapi-schema.json  --output ./generated --name DrChronoClient --useOptions --useUnionTypes --client fetch",
+    "build": "npm run generate && npx -p typescript tsc --outDir dist",
+    "prepublish": "npm run build"
+  }
+}
