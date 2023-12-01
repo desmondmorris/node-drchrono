@@ -1,7 +1,7 @@
 {
   "name": "drchrono",
   "description": "This is a client library generated using the `openapi-typescript-codegen` tool for the DrChrono API.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",

@@ -25,7 +25,7 @@ const client = new DrChronoClient({
 // Make API requests using the client
 async function fetchPatients() {
   try {
-    const patients = await client.getPatients();
+    const patients = await client.clinical.patientsList({});
     console.log(patients);
   } catch (error) {
     console.error(error);
