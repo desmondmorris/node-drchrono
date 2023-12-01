@@ -7,12 +7,15 @@
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf generated dist && mkdir generated",
-    "prefetch": "npm run clean",
-    "fetch": "curl https://app.drchrono.com/openapi-schema > ./openapi-schema.json && sed -i -e 's/\"bool\"/\"boolean\"/g' ./openapi-schema.json && sed -i -e 's/\"data\"/\"results\"/g' ./openapi-schema.json && rm ./openapi-schema.json-e",
+    "fetch": "npx ts-node ./scripts/fetch-schema.ts",
     "pregenerate": "npm run fetch",
     "postgenerate": "rm ./openapi-schema.json",
     "generate": "npx -p openapi-typescript-codegen openapi --input ./openapi-schema.json  --output ./generated --name DrChronoClient --useOptions --useUnionTypes --client fetch",
+    "prebuild": "npm run clean",
     "build": "npm run generate && npx -p typescript tsc --outDir dist",
     "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1"
   }
 }
