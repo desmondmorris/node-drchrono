@@ -15,7 +15,7 @@ npm install drchrono
 Here's an example of how you can use the DrChrono library in your JavaScript project:
 
 ```javascript
-const DrChronoClient = require("drchrono");
+const { DrChronoClient } = require("drchrono");
 
 // Create a new instance of the DrChronoClient
 const client = new DrChronoClient({
