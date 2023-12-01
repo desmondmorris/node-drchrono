@@ -36,7 +36,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<BillingProfile>;
+        results?: Array<BillingProfile>;
         /**
          * Next Paginated page
          */
@@ -118,7 +118,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<PhoneCallLog>;
+        results?: Array<PhoneCallLog>;
         /**
          * Next Paginated page
          */
@@ -319,7 +319,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<CustomInsurancePlanName>;
+        results?: Array<CustomInsurancePlanName>;
         /**
          * Next Paginated page
          */
@@ -601,7 +601,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<Coverage>;
+        results?: Array<Coverage>;
         /**
          * Next Paginated page
          */
@@ -715,7 +715,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<BillingLineItem>;
+        results?: Array<BillingLineItem>;
         /**
          * Next Paginated page
          */
@@ -1017,7 +1017,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<PatientAuthorization>;
+        results?: Array<PatientAuthorization>;
         /**
          * Next Paginated page
          */
@@ -1071,7 +1071,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<CashPaymentLog>;
+        results?: Array<CashPaymentLog>;
         /**
          * Next Paginated page
          */
@@ -1161,7 +1161,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<CashPayment>;
+        results?: Array<CashPayment>;
         /**
          * Next Paginated page
          */
@@ -1289,7 +1289,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<BillingLineItem>;
+        results?: Array<BillingLineItem>;
         /**
          * Next Paginated page
          */
@@ -1394,7 +1394,7 @@ export class BillingService {
         /**
          * result data
          */
-        data?: Array<LineItemTransaction>;
+        results?: Array<LineItemTransaction>;
         /**
          * Next Paginated page
          */

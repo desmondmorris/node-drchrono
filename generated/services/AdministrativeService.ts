@@ -30,7 +30,7 @@ export class AdministrativeService {
         /**
          * result data
          */
-        data?: Array<Doctor>;
+        results?: Array<Doctor>;
         /**
          * Next Paginated page
          */
@@ -108,7 +108,7 @@ export class AdministrativeService {
         /**
          * result data
          */
-        data?: Array<UserProfilesGroup>;
+        results?: Array<UserProfilesGroup>;
         /**
          * Next Paginated page
          */
@@ -186,7 +186,7 @@ export class AdministrativeService {
         /**
          * result data
          */
-        data?: Array<UserProfile>;
+        results?: Array<UserProfile>;
         /**
          * Next Paginated page
          */

@@ -72,7 +72,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientAllergy>;
+        results?: Array<PatientAllergy>;
         /**
          * Next Paginated page
          */
@@ -258,7 +258,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientAmendment>;
+        results?: Array<PatientAmendment>;
         /**
          * Next Paginated page
          */
@@ -491,7 +491,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<AppointmentProfile>;
+        results?: Array<AppointmentProfile>;
         /**
          * Next Paginated page
          */
@@ -696,7 +696,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<AppointmentTemplate>;
+        results?: Array<AppointmentTemplate>;
         /**
          * Next Paginated page
          */
@@ -948,7 +948,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<Appointment>;
+        results?: Array<Appointment>;
         /**
          * Next Paginated page
          */
@@ -1260,7 +1260,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<Appointment>;
+        results?: Array<Appointment>;
         /**
          * Next Paginated page
          */
@@ -1559,7 +1559,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<CarePlan>;
+        results?: Array<CarePlan>;
         /**
          * Next Paginated page
          */
@@ -1648,7 +1648,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<CareTeamMember>;
+        results?: Array<CareTeamMember>;
         /**
          * Next Paginated page
          */
@@ -1735,7 +1735,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<ClaimBillingNotes>;
+        results?: Array<ClaimBillingNotes>;
         /**
          * Next Paginated page
          */
@@ -1849,7 +1849,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<SoapNoteLineItemFieldType>;
+        results?: Array<SoapNoteLineItemFieldType>;
         /**
          * Next Paginated page
          */
@@ -1939,7 +1939,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<SoapNoteLineItemFieldValue>;
+        results?: Array<SoapNoteLineItemFieldValue>;
         /**
          * Next Paginated page
          */
@@ -2160,7 +2160,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<SoapNoteCustomReport>;
+        results?: Array<SoapNoteCustomReport>;
         /**
          * Next Paginated page
          */
@@ -2247,7 +2247,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<ClinicalNote>;
+        results?: Array<ClinicalNote>;
         /**
          * Next Paginated page
          */
@@ -2344,7 +2344,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<ConsentForm>;
+        results?: Array<ConsentForm>;
         /**
          * Next Paginated page
          */
@@ -2577,7 +2577,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<CustomAppointmentFieldType>;
+        results?: Array<CustomAppointmentFieldType>;
         /**
          * Next Paginated page
          */
@@ -2746,7 +2746,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<CustomPatientFieldType>;
+        results?: Array<CustomPatientFieldType>;
         /**
          * Next Paginated page
          */
@@ -2915,7 +2915,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<CustomVitalType>;
+        results?: Array<CustomVitalType>;
         /**
          * Next Paginated page
          */
@@ -2997,7 +2997,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<ScannedClinicalDocument>;
+        results?: Array<ScannedClinicalDocument>;
         /**
          * Next Paginated page
          */
@@ -3230,7 +3230,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<EOBObject>;
+        results?: Array<EOBObject>;
         /**
          * Next Paginated page
          */
@@ -3342,7 +3342,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<DoctorFeeSchedule>;
+        results?: Array<DoctorFeeSchedule>;
         /**
          * Next Paginated page
          */
@@ -3446,7 +3446,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<FeeSchedule>;
+        results?: Array<FeeSchedule>;
         /**
          * Next Paginated page
          */
@@ -3530,7 +3530,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<ImplantableDevice>;
+        results?: Array<ImplantableDevice>;
         /**
          * Next Paginated page
          */
@@ -3627,7 +3627,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<Insurance>;
+        results?: Array<Insurance>;
         /**
          * Next Paginated page
          */
@@ -3716,7 +3716,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<LabOrderDocument>;
+        results?: Array<LabOrderDocument>;
         /**
          * Next Paginated page
          */
@@ -3942,7 +3942,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<LabOrder>;
+        results?: Array<LabOrder>;
         /**
          * Next Paginated page
          */
@@ -4169,7 +4169,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<LabOrder>;
+        results?: Array<LabOrder>;
         /**
          * Next Paginated page
          */
@@ -4256,7 +4256,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<LabResult>;
+        results?: Array<LabResult>;
         /**
          * Next Paginated page
          */
@@ -4482,7 +4482,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<LabTest>;
+        results?: Array<LabTest>;
         /**
          * Next Paginated page
          */
@@ -4708,7 +4708,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientDrug>;
+        results?: Array<PatientDrug>;
         /**
          * Next Paginated page
          */
@@ -4927,7 +4927,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientCommunication>;
+        results?: Array<PatientCommunication>;
         /**
          * Next Paginated page
          */
@@ -5109,7 +5109,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientFlagType>;
+        results?: Array<PatientFlagType>;
         /**
          * Next Paginated page
          */
@@ -5280,7 +5280,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientIntervention>;
+        results?: Array<PatientIntervention>;
         /**
          * Next Paginated page
          */
@@ -5467,7 +5467,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientLabResultSet>;
+        results?: Array<PatientLabResultSet>;
         /**
          * Next Paginated page
          */
@@ -5714,7 +5714,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientMessage>;
+        results?: Array<PatientMessage>;
         /**
          * Next Paginated page
          */
@@ -5907,7 +5907,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientPhysicalExam>;
+        results?: Array<PatientPhysicalExam>;
         /**
          * Next Paginated page
          */
@@ -6090,7 +6090,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientRiskAssessment>;
+        results?: Array<PatientRiskAssessment>;
         /**
          * Next Paginated page
          */
@@ -6274,7 +6274,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientVaccineRecord>;
+        results?: Array<PatientVaccineRecord>;
         /**
          * Next Paginated page
          */
@@ -6502,7 +6502,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<Patient>;
+        results?: Array<Patient>;
         /**
          * Next Paginated page
          */
@@ -7182,7 +7182,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<Patient>;
+        results?: Array<Patient>;
         /**
          * Next Paginated page
          */
@@ -7464,7 +7464,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PrescriptionMessage>;
+        results?: Array<PrescriptionMessage>;
         /**
          * Next Paginated page
          */
@@ -7556,7 +7556,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<PatientProblem>;
+        results?: Array<PatientProblem>;
         /**
          * Next Paginated page
          */
@@ -7738,7 +7738,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<ReminderProfile>;
+        results?: Array<ReminderProfile>;
         /**
          * Next Paginated page
          */
@@ -7938,7 +7938,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<Staff>;
+        results?: Array<Staff>;
         /**
          * Next Paginated page
          */
@@ -8013,7 +8013,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<LabVendorLocation>;
+        results?: Array<LabVendorLocation>;
         /**
          * Next Paginated page
          */
@@ -8192,7 +8192,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<TelemedicineAppointmentEventLog>;
+        results?: Array<TelemedicineAppointmentEventLog>;
         /**
          * Next Paginated page
          */
@@ -8296,7 +8296,7 @@ export class ClinicalService {
         /**
          * result data
          */
-        data?: Array<TelemedicineAppointment>;
+        results?: Array<TelemedicineAppointment>;
         /**
          * Next Paginated page
          */

@@ -38,7 +38,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<InventoryCategory>;
+        results?: Array<InventoryCategory>;
         /**
          * Next Paginated page
          */
@@ -126,7 +126,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<InventoryVaccine>;
+        results?: Array<InventoryVaccine>;
         /**
          * Next Paginated page
          */
@@ -264,7 +264,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<DoctorMessage>;
+        results?: Array<DoctorMessage>;
         /**
          * Next Paginated page
          */
@@ -561,7 +561,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<Office>;
+        results?: Array<Office>;
         /**
          * Next Paginated page
          */
@@ -735,7 +735,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<TaskCategory>;
+        results?: Array<TaskCategory>;
         /**
          * Next Paginated page
          */
@@ -906,7 +906,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<TaskNote>;
+        results?: Array<TaskNote>;
         /**
          * Next Paginated page
          */
@@ -1088,7 +1088,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<TaskStatus>;
+        results?: Array<TaskStatus>;
         /**
          * Next Paginated page
          */
@@ -1265,7 +1265,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<TaskTemplate>;
+        results?: Array<TaskTemplate>;
         /**
          * Next Paginated page
          */
@@ -1502,7 +1502,7 @@ export class PracticeManagementService {
         /**
          * result data
          */
-        data?: Array<Task>;
+        results?: Array<Task>;
         /**
          * Next Paginated page
          */

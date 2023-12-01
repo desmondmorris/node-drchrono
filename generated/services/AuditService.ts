@@ -46,7 +46,7 @@ export class AuditService {
         /**
          * result data
          */
-        data?: Array<AuditLog>;
+        results?: Array<AuditLog>;
         /**
          * Next Paginated page
          */
