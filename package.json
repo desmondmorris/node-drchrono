@@ -7,15 +7,18 @@
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf generated dist && mkdir generated",
-    "fetch": "npx ts-node ./scripts/fetch-schema.ts",
-    "pregenerate": "npm run fetch",
-    "postgenerate": "rm ./openapi-schema.json",
-    "generate": "npx -p openapi-typescript-codegen openapi --input ./openapi-schema.json  --output ./generated --name DrChronoClient --useOptions --useUnionTypes --client fetch",
-    "prebuild": "npm run clean",
-    "build": "npm run generate && npx -p typescript tsc --outDir dist",
-    "prepublish": "npm run build"
+    "fetch": "npx ts-node ./src/fetch-schema.ts",
+    "pregenerate": "npm run clean && npm run fetch",
+    "postgenerate": "rm ./openapi-schema.json && rm -rf ./generated",
+    "generate": "npm run generate:client && npm run generate:types",
+    "generate:client": "npx -p openapi-typescript-codegen openapi --input ./openapi-schema.json  --output ./generated --name DrChronoClient --useOptions --useUnionTypes --client fetch",
+    "generate:types": "npx -p typescript tsc --outDir dist"
   },
-  "devDependencies": {
-    "@types/node": "^20.10.1"
+  "devDependenciess": {
+    "@types/node": "^20.10.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@jest/types": "^29.6.3"
   }
 }
